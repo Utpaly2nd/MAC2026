@@ -139,15 +139,15 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               </Link>
             </li>
 
-            <li className={`rounded-md hover:bg-blue-200 dark:hover:bg-blue-700 ${isActiveTab("#publchairs")}`}>
-              <Link 
-                href="/Committee#publchairs"
-                onClick={() => { if (width < 768) setIsOpen(false); }}
-                className="block p-1 pl-2 text-gray-900 dark:text-gray-100"
-              >
-                Publicity Chair
-              </Link>
-            </li>
+            // <li className={`rounded-md hover:bg-blue-200 dark:hover:bg-blue-700 ${isActiveTab("#publchairs")}`}>
+            //   <Link 
+            //     href="/Committee#publchairs"
+            //     onClick={() => { if (width < 768) setIsOpen(false); }}
+            //     className="block p-1 pl-2 text-gray-900 dark:text-gray-100"
+            //   >
+            //     Publicity Chair
+            //   </Link>
+            // </li>
 
             <li className={`rounded-md hover:bg-blue-200 dark:hover:bg-blue-700 ${isActiveTab("#execcommittee")}`}>
               <Link 
